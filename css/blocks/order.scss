@@ -1,0 +1,135 @@
+.order {
+    background: url(../img/background/bg-order.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+
+.form {
+    display: flex;
+}
+
+.form__left {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.form__right {
+    flex: 1;
+}
+
+.form__row {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.form__block {
+    flex: 1;
+    margin-left: 20px;
+    &:first-child {
+        margin-left: 0;
+    }
+}
+
+.form__input {
+    font-size: 14px;
+    font-weight: $lightFont;
+    border: 1px solid transparent;
+    padding: 8px 15px;
+    background: #fff;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.form__input:hover, .form__input:focus{
+    border-color: #f9b43b;
+}
+
+
+.form__title {
+    font-size: 14px;
+    font-weight: $lightFont;
+}
+
+.form__input--comment {
+    height: 100px;
+    resize: none;
+}
+
+.form__options {
+    margin-bottom: 20px;
+}
+
+.form__options-type {
+    margin-right: 20px;
+}
+
+.form__options-radio {
+    display: none;
+}
+
+.form__options-fake {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: relative;
+    vertical-align: -13%;
+    margin-right: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.form__options-radio:checked~.form__options-fake:before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #e45028;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form__checkbox {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.form__checkbox-visual {
+    display: none;
+}
+
+.form__checkbox-fake {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    position: relative;
+    margin-right: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+.form__checkbox-visual:checked~.form__checkbox-fake:before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    background: url("../img/icons/checkmark.png") 50% 50% no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn--clear {
+    margin-left: 10px;
+    background-color: transparent;
+    text-transform: none;
+}
+
+.btn--clear:hover {
+    background-color: #171819;
+    transition: 0.3s;
+}

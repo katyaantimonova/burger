@@ -1,0 +1,15 @@
+.section__title {
+    @include gagalin;
+    font-size: 72px;
+    color: $yellow;
+    margin-bottom: 35px;
+    line-height: 1;
+}
+
+.section-title_position-center{
+    text-align: center;
+}
+
+.section__title--grey {
+    color: $dark-grey;
+}

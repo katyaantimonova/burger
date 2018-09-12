@@ -1,0 +1,18 @@
+@mixin ubuntu($weight){
+    font-family: ubuntu, Verdana, Arial, sans-serif;
+    font-weight: $weight;
+    font-style: normal;
+}
+
+@mixin lifehack {
+    font-family: Lifehack-Medium, cursive;
+    font-weight: 500;
+    font-style: normal;
+}
+
+@mixin gagalin {
+    font-family: Gagalin-Regular, cursive;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+}

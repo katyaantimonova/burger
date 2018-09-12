@@ -1,0 +1,57 @@
+.main {
+    background: url(../img/background/bg-main.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.main-wrapper {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main__container {
+    display: flex;
+    align-items: center;
+}
+
+.header__icon{
+    width: 90px;
+    height: 70px;
+}
+
+.main__subtitle {
+    @include lifehack;
+    font-size: 65px;
+    text-transform: lowercase;
+    line-height: 0.9;
+}
+
+.main__left {
+    width: 50%;
+    margin-right: 15px;
+}
+
+.main__right {
+    width: 50%;
+    margin-top: 55px;
+}
+
+.main__img{
+    max-width: 100%;
+    max-width: 100%;
+}
+
+.main__arrow {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    width: 30px;
+    height: 15px;
+    margin-bottom: 40px;
+}
+
+.main__arrow-icon{
+    fill: #fff;
+    width: 30px;
+    height: 15px;
+}

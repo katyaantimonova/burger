@@ -1,0 +1,38 @@
+.best {
+    background: url(../img/background/bg-best.jpg) center center no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+
+.best__list {
+    display: flex;
+}
+
+.best__item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+
+.best__content{
+   color: $dark-grey;
+}
+
+.best__icon{
+    margin-bottom: 30px;
+    height: 90px;
+}
+
+.best__title{
+    @include lifehack;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.text-block p{
+    line-height: 1.8;
+}

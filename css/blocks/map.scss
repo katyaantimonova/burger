@@ -1,0 +1,60 @@
+.footer{
+    background: url(../img/background/bg-footer.jpg) center bottom no-repeat;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 8px 0 8px 0;
+}
+
+.footer__container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.footer__col{
+    width: 50%;
+    display: flex;
+}
+
+.footer__col--right{
+    justify-content: flex-end;
+}
+
+.footer__address{
+    margin-bottom: 10px;
+}
+
+.footer__phone{
+    color: $orange;
+    font-weight: $boldFont;
+}
+
+.footer__phone-icon{
+    width: 13px;
+    height: 12px;
+}
+
+.socials__icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    fill: #fff;
+    opacity: 0.3;
+    transition: 0.3s;
+
+    &:hover{
+        opacity: 1;
+    }
+}
+
+.socials__list{
+ display: flex;
+}
+
+.map{
+    background: center center no-repeat;
+    background-size: cover;
+}

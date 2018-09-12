@@ -1,0 +1,16 @@
+.btn{
+    padding: 9px 16px;
+    border-radius: 5px;
+    background: $orange;
+    color: #fff ;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: $mediumFont;
+}
+
+.btn:hover{
+    background-color: #c13c18;
+}
+
